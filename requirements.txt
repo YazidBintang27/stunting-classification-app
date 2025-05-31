@@ -1,6 +1,7 @@
 streamlit
 pandas
 joblib
+scikit-learn
 openpyxl
-xlsxwriter
 streamlit-option-menu
+xlsxwriter
