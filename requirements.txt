@@ -1,0 +1,6 @@
+streamlit
+pandas
+joblib
+openpyxl
+xlsxwriter
+streamlit-option-menu
