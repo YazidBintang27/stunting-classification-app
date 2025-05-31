@@ -8,6 +8,11 @@ model = joblib.load("stunting_classification_model.pkl")
 label_encoder_gender = joblib.load("label_encoder_gender.pkl")
 label_encoder_status = joblib.load("label_encoder_status.pkl")
 
+st.set_page_config(
+    page_title="Prediksi Stunting",
+    page_icon="UMT.png"
+)
+
 with st.sidebar:
     st.sidebar.markdown(
         "<h2 style='font-size:28px; font-weight:bold; color:#438BFF;'>Prediksi Stunting</h2>",
